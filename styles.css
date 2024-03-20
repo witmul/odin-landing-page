@@ -1,0 +1,139 @@
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 5rem;
+}
+
+header > ul {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+
+/* GENERAL CLASSES */
+
+.container {
+    /* height: 25rem; */
+    padding: 5rem 5rem 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+/* HEADER */
+
+.header__header-logo {
+    font-size: 28px;
+    color: #F9FAF8;
+}
+
+/* FIRST CONTAINER */
+
+.main__sub-container-1 {
+    /* display: flex; */
+    align-items: stretch;
+    /* justify-content: space-between; */
+    gap: 5rem
+}
+
+.main__sub-container-1 > * {
+    flex: 1
+}
+
+.info__sub-container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.placeholder__sub-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+}
+
+.header__sub-container-1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text__sub-container-1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* SECOND CONTAINER */
+
+.main__sub-container-2 {
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem
+}
+
+.header__sub-container-2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.content__sub-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-item__sub-container-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    gap: 1rem
+}
+
+.content-item__sub-container-2 > div {
+    width: 160px;             /* Set the desired width */ 
+    height: 160px;            /* Set the desired height */ 
+    border: 5px solid #3882f6;  /* Add a border with desired style and color */ 
+    background-color: white;
+    border-radius: 10px;  /* Set the background color to desired value */ 
+}
+
+.content-item__sub-container-2 > p {
+    text-align: center;
+    color: #696969;
+    font-weight: 500;
+}
