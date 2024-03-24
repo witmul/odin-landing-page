@@ -39,12 +39,17 @@ button {
     align-self: flex-start;
 }
 
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
 
 /* GENERAL CLASSES */
 
 .container {
     /* height: 25rem; */
-    padding: 5rem 20rem 5rem 20rem;
+    padding: 3rem 12rem 3rem 12rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,3 +163,40 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
+
+/* FOURTH CONTAINER */
+
+.content__sub-container-4 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.content-right__sub-container-4 {
+    display: flex;
+    justify-content: center;
+    align-self:center ;
+}
+
+.content-right__sub-container-4 > button {
+    border: 2px solid white;
+}
+
+.content-left__sub-container-4 > h3 {
+    color: white;
+}
+
+.content-left__sub-container-4 > p {
+    color: white;
+}
+
+.content-left__sub-container-4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
